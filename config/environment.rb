@@ -1,0 +1,7 @@
+Rack::Webconsole.inject_jquery = true
+
+# Load the rails application
+require File.expand_path('../application', __FILE__)
+
+# Initialize the rails application
+Webconsole::Application.initialize!
